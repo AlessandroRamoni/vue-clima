@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <headerComponent />
-    <homeComponent msg="Welcome to Your Vue.js App" />
+    <homeComponent />
   </div>
 </template>
 
 <script>
-import headerComponent from "./components/headerComponent.vue";
-import homeComponent from './components/homeComponent.vue'
+import headerComponent from './components/headerComponent.vue';
+import homeComponent from './components/homeComponent.vue';
 
 export default {
   name: 'App',
@@ -19,12 +19,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./assets/style/generics.scss";
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7ecec;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
