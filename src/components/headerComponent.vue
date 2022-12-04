@@ -62,8 +62,23 @@ export default {
         display: flex;
         justify-content: space-around;
         li {
-            color: #d4e6ee;
+            color: #65bde2;
+            padding-top: 15px;
         }
+        li:hover {
+            color: #ffffff;
+            cursor: pointer;
+        }
+        li:active {
+            background-color: rgb(0, 45, 75);
+        }
+        li:visited {
+            background-color: red;
+        }
+        a {
+            margin-top: 20px;
+        }
+       
     }
 }
 </style>
