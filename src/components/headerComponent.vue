@@ -64,10 +64,12 @@ export default {
         li {
             color: #65bde2;
             padding-top: 15px;
+            width: 100%;
         }
         li:hover {
             color: #ffffff;
             cursor: pointer;
+            background-color: rgb(21, 69, 133);
         }
         li:active {
             background-color: rgb(0, 45, 75);
